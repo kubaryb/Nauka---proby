@@ -359,5 +359,5 @@ void Plik::dif(Plik &baza, Plik &wart)
 
 void Plik::divide(Plik &baza, Plik &wart)
 {
-	std::cout << "dzielenie";
+	
 }
