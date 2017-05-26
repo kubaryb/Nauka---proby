@@ -359,5 +359,26 @@ void Plik::dif(Plik &baza, Plik &wart)
 
 void Plik::divide(Plik &baza, Plik &wart)
 {
-	
+	char b, w;
+	int bi, wi, r(0), bin, win;
+	baza.plik.seekg(0, std::ios::beg);
+	wart.plik.seekg(0, std::ios::beg);
+	baza.plik.get(b);
+	wart.plik.get(w);
+	bi = b - 48;
+	wi = w - 48;
+	int x(bi / wi);
+
+	baza.plik.get(b);
+	wart.plik.get(w);
+	bin = b - 48;
+	win = w - 48;
+	int it(0);
+	while (1)
+	{
+		if (win*x > bin + r * 10)
+		{
+
+		}
+	}
 }

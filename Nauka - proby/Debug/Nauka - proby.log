@@ -1,6 +1,4 @@
-﻿  stdafx.cpp
-  Plik.cpp
-  Nauka - proby.cpp
-  Generating Code...
+﻿  Plik.cpp
+d:\github\nauka - proby\nauka - proby\plik.cpp(362): warning C4101: 'w2': unreferenced local variable
   Nauka - proby.vcxproj -> D:\Github\Nauka - proby\Debug\Nauka - proby.exe
   Nauka - proby.vcxproj -> D:\Github\Nauka - proby\Debug\Nauka - proby.pdb (Full PDB)

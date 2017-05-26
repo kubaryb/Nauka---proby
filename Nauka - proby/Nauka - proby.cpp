@@ -19,8 +19,8 @@ int main()
 		Plik wynik("wynik.dat", 'w');
 
 		//wynik.add(baza,wart);
-		wynik.dif(baza, wart);
-		wynik.print();
+		wynik.divide(baza, wart);
+		//wynik.print();
 		/*std::fstream plik("dane.dat",std::ios::in | std::ios::out);
 		Plik wynik("wynik.dat", 'w');
 		Plik wynik2(plik,'r');

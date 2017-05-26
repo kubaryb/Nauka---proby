@@ -19,6 +19,7 @@ public:
 	Plik& operator=(Plik&);
 	Plik& operator=(std::fstream&);
 	Plik& operator!();
+	//Plik& operator*(const int&);
 	void print();
 	char getC(const int&);
 	void putC(const char&, const int&);
