@@ -25,6 +25,7 @@ public:
 	void add(Plik&, Plik&);
 	void multiply(Plik&, Plik&);
 	void dif(Plik&, Plik&);
+	void divide(Plik&, Plik&);
 };
 
 #endif // !PLIK_H
